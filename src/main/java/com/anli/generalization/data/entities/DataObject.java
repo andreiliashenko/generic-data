@@ -24,6 +24,8 @@ public interface DataObject {
 
     void addChild(DataObject child);
 
+    void removeChild(DataObject child);
+
     <T> T getValue(Attribute attribute);
 
     <T> void setSingleValue(Attribute attribute, T value);
