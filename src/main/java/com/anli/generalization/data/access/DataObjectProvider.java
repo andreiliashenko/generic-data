@@ -4,7 +4,7 @@ import com.anli.generalization.data.entities.DataObject;
 import com.anli.generalization.data.entities.metadata.ObjectType;
 import java.math.BigInteger;
 
-public interface DataObjectManager {
+public interface DataObjectProvider {
 
     DataObject create(ObjectType type);
 

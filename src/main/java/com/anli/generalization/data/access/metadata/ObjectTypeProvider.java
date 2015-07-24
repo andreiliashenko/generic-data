@@ -3,7 +3,7 @@ package com.anli.generalization.data.access.metadata;
 import com.anli.generalization.data.entities.metadata.ObjectType;
 import java.math.BigInteger;
 
-public interface ObjectTypeManager {
+public interface ObjectTypeProvider {
 
     ObjectType create(ObjectType parentType);
 
