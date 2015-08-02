@@ -10,6 +10,8 @@ public interface ObjectType {
 
     ObjectType getParent();
 
+    void setParent(ObjectType parent);
+
     Collection<ObjectType> getChildren();
 
     String getName();
