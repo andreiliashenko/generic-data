@@ -7,11 +7,11 @@ import com.anli.generalization.data.access.metadata.ObjectTypeProvider;
 
 public interface ProviderFactory {
 
-    DataObjectProvider getDataObjectManager();
+    DataObjectProvider getDataObjectProvider();
 
-    AttributeProvider getAttributeManager();
+    AttributeProvider getAttributeProvider();
 
-    ObjectTypeProvider getObjectTypeManager();
+    ObjectTypeProvider getObjectTypeProvider();
 
-    ListEntryProvider getListEntryManager();
+    ListEntryProvider getListEntryProvider();
 }
