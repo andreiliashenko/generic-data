@@ -18,6 +18,8 @@ public interface DataObject {
 
     void setDescription(String description);
 
+    ObjectType getObjectType();
+
     DataObject getParent();
 
     Collection<DataObject> getChildren(ObjectType objectType, boolean hierarchically);
